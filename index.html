@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Estimator GPT - Smarter Estimates for Contractors</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-987654321"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-987654321');
+  </script>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .section { padding: 4rem 2rem; }
+    .hero { background-color: #1f2937; color: white; text-align: center; }
+    .how-it-works { background-color: #f9fafb; }
+    .features { background-color: #ffffff; }
+    .feedback { background-color: #f9fafb; }
+    .cta { background-color: #1f2937; color: white; text-align: center; }
+    .step { flex: 1; padding: 1rem; text-align: center; }
+    .waitlist-form { max-width: 400px; margin: 0 auto 20px; }
+    .waitlist-form input { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    .waitlist-form button { width: 100%; padding: 10px; background-color: #10b981; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    .waitlist-form button:hover { background-color: #059669; }
+  </style>
+</head>
+<body>
+  <!-- Hero CTA -->
+  <div class="hero section">
+    <h1 class="text-4xl font-bold mb-4">Smarter Estimates. Powered by AI. Built for Contractors.</h1>
+    <p class="text-lg mb-6">Upload your quotes, validate against regional benchmarks, and build with confidence.</p>
+    <a href="https://estimator-gpt.com/upload" class="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600">Get Started Free</a>
+  </div>
+
+  <!-- How It Works -->
+  <div class="how-it-works section">
+    <h2 class="text-3xl font-bold text-center mb-8">How It Works</h2>
+    <div class="flex flex-col md:flex-row gap-4">
+      <div class="step">
+        <h3 class="text-xl font-semibold mb-2">1. Upload Your Quote</h3>
+        <p>Drop in a PDF or CSV — we’ll parse doors, slabs, finishes, and more.</p>
+      </div>
+      <div class="step">
+        <h3 class="text-xl font-semibold mb-2">2. Validate & Compare</h3>
+        <p>We’ll flag outliers and compare your prices to regional benchmarks.</p>
+      </div>
+      <div class="step">
+        <h3 class="text-xl font-semibold mb-2">3. Build Smarter</h3>
+        <p>Accept our suggestions or stick with your numbers — your call.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Features -->
+  <div class="features section">
+    <h2 class="text-3xl font-bold text-center mb-8">Core Features</h2>
+    <ul class="list-disc pl-6 max-w-2xl mx-auto">
+      <li class="mb-4"><strong>PDF Parsing:</strong> Extract doors, slabs, and finishes from blueprints in seconds.</li>
+      <li class="mb-4"><strong>Cost Validation:</strong> Compare your quotes to regional and historical data.</li>
+      <li class="mb-4"><strong>Deviation Detection:</strong> Spot outliers before they impact your bottom line.</li>
+    </ul>
+  </div>
+
+  <!-- Real Feedback Loop -->
+  <div class="feedback section">
+    <h2 class="text-3xl font-bold text-center mb-8">Real Feedback Loop</h2>
+    <p class="text-lg text-center max-w-2xl mx-auto">Fed by real quotes. Tuned to your business. The more you use it, the smarter it gets — all while keeping your data anonymized and secure.</p>
+  </div>
+
+  <!-- Call to Action -->
+  <div class="cta section">
+    <h2 class="text-3xl font-bold mb-4">Ready to Estimate Smarter?</h2>
+    <p class="text-lg mb-6">Join contractors who are building faster, smarter, and more profitably.</p>
+    <!-- Waitlist Form -->
+    <div class="waitlist-form">
+      <form name="waitlist" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="waitlist" />
+        <input type="email" name="email" placeholder="Enter your email to join the waitlist" required />
+        <button type="submit">Join Waitlist</button>
+      </form>
+    </div>
+    <a href="https://estimator-gpt.com/upload" class="bg-blue-500 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-600">Try Free</a>
+  </div>
+</body>
+</html>
